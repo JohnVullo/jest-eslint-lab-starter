@@ -1,4 +1,5 @@
 
+
 // Utility Functions
 
 /**
@@ -29,5 +30,15 @@ function logAction(action, username) {
     const timestamp = new Date().toISOString();
     return `User ${username} performed ${action} at ${timestamp}`;
 }
+
+/*const users = [
+  { name: "Alice", isActive: true },
+  { name: "Bob", isActive: false },
+  { name: "John", isActive: true },
+]
+console.log(filterActiveUsers(users))*/
+
+
+console.log(logAction("login",))
 
 module.exports = { capitalizeWords, filterActiveUsers, logAction };
